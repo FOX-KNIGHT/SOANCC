@@ -40,70 +40,125 @@
     "description": "NCC cadets getting exposure to thrilling adventures",
     "images": [
       {
-        "src": "media/Activities/Adventures/1.jpeg?w=400&h=300&fit=crop",
+        "src": "media/Activities/Adventures/1.png?w=400&h=300&fit=crop",
+        "alt": "Mountaineering Camp",
+        "caption": "Leadership and Team Building Camp 2025, part of the Special Adventure Course at the Nehru Institute of Mountaineering, Uttarkashi, Uttarakhand, attended by Cdt. Vivek Ranjan Sahoo."
+      },
+      {
+        "src": "media/Activities/Adventures/2.png?w=400&h=300&fit=crop",
+        "alt": "Mountaineering Camp",
+        "caption": "Leadership and Team Building Camp 2025, part of the Special Adventure Course at the Nehru Institute of Mountaineering, Uttarkashi, Uttarakhand, attended by Cdt. Vivek Ranjan Sahoo."
+      },
+      {
+        "src": "media/Activities/Adventures/3.png?w=400&h=300&fit=crop",
+        "alt": "Mountaineering Camp",
+        "caption": "Leadership and Team Building Camp 2025, part of the Special Adventure Course at the Nehru Institute of Mountaineering, Uttarkashi, Uttarakhand, attended by Cdt. Vivek Ranjan Sahoo."
+      },
+      {
+        "src": "media/Activities/Adventures/4.png?w=400&h=300&fit=crop",
+        "alt": "Mountaineering Camp",
+        "caption": "Leadership and Team Building Camp 2025, part of the Special Adventure Course at the Nehru Institute of Mountaineering, Uttarkashi, Uttarakhand, attended by Cdt. Vivek Ranjan Sahoo."
+      },
+      {
+        "src": "media/Activities/Adventures/5.png?w=400&h=300&fit=crop",
+        "alt": "Mountaineering Camp",
+        "caption": "Leadership and Team Building Camp 2025, part of the Special Adventure Course at the Nehru Institute of Mountaineering, Uttarkashi, Uttarakhand, attended by Cdt. Vivek Ranjan Sahoo."
+      },
+      {
+        "src": "media/Activities/Adventures/6.png?w=400&h=300&fit=crop",
+        "alt": "Mountaineering Camp",
+        "caption": "Leadership and Team Building Camp 2025, part of the Special Adventure Course at the Nehru Institute of Mountaineering, Uttarkashi, Uttarakhand, attended by Cdt. Vivek Ranjan Sahoo."
+      },
+      {
+        "src": "media/Activities/Adventures/7.png?w=400&h=300&fit=crop",
+        "alt": "Mountaineering Camp",
+        "caption": "Leadership and Team Building Camp 2025, part of the Special Adventure Course at the Nehru Institute of Mountaineering, Uttarkashi, Uttarakhand, attended by Cdt. Vivek Ranjan Sahoo."
+      },
+      {
+        "src": "media/Activities/Adventures/8.jpeg?w=400&h=300&fit=crop",
         "alt": "AMC Camp",
         "caption": "CQMS Putta Siddharth excelled in Uttarkashi's Adventure Mountaineering Course (Nov '23), completing a 12km trek to 9,842ft Harunta Bugyal and securing 2nd in cross-country running."
       },
       {
-        "src": "media/Activities/Adventures/2.jpeg?w=400&h=300&fit=crop",
+        "src": "media/Activities/Adventures/9.jpeg?w=400&h=300&fit=crop",
         "alt": "Rajgir Trekking Camp",
         "caption": "Five SOA NCC cadets completed the Rajgir Trekking Camp (2023), a 10-day expedition covering Nalanda ruins, Viswa Shanti Stupa, Ghora Katora, Nalanda International University, and Giriyak Dam."
       },
       {
-        "src": "media/Activities/Adventures/3.jpeg?w=400&h=300&fit=crop",
+        "src": "media/Activities/Adventures/10.jpeg?w=400&h=300&fit=crop",
         "alt": "Rajgir Trekking Camp",
         "caption": "Five SOA NCC cadets completed the Rajgir Trekking Camp (2023), a 10-day expedition covering Nalanda ruins, Viswa Shanti Stupa, Ghora Katora, Nalanda International University, and Giriyak Dam."
       },
       {
-        "src": "media/Activities/Adventures/4.jpeg?w=400&h=300&fit=crop",
+        "src": "media/Activities/Adventures/11.jpeg?w=400&h=300&fit=crop",
         "alt": "Rajgir Trekking Camp",
         "caption": "Five SOA NCC cadets completed the Rajgir Trekking Camp (2023), a 10-day expedition covering Nalanda ruins, Viswa Shanti Stupa, Ghora Katora, Nalanda International University, and Giriyak Dam."
       },
       {
-        "src": "media/Activities/Adventures/5.jpeg?w=400&h=300&fit=crop",
+        "src": "media/Activities/Adventures/12.jpeg?w=400&h=300&fit=crop",
         "alt": "Rajgir Trekking Camp",
         "caption": "Five SOA NCC cadets completed the Rajgir Trekking Camp (2023), a 10-day expedition covering Nalanda ruins, Viswa Shanti Stupa, Ghora Katora, Nalanda International University, and Giriyak Dam."
       },
       {
-        "src": "media/Activities/Adventures/6.jpeg?w=400&h=300&fit=crop",
-        "alt": "Super Seniors Trip",
-        "caption": "NCC Adventure Life"
+        "src": "media/Activities/Adventures/13.jpeg?w=400&h=300&fit=crop",
+        "alt": "Rajgir Trekking Camp",
+        "caption": "Five SOA NCC cadets completed the Rajgir Trekking Camp (2023), a 10-day expedition covering Nalanda ruins, Viswa Shanti Stupa, Ghora Katora, Nalanda International University, and Giriyak Dam."
       }
     ]
   },
   "tree-plantation": {
-    "title": "Tree Plantation Gallery",
-    "description": "Contributing to environmental conservation and sustainability",
+    "title": "Extra-Curriculars Gallery",
+    "description": "Development of cadets through involvement in various co-curricular activities",
     "images": [
       {
-        "src": "media/Activities/TreePlantation/1.jpeg?w=400&h=300&fit=crop",
+        "src": "media/Activities/ExtraCurriculars/1.jpeg?w=400&h=300&fit=crop",
         "alt": "Tree Planting",
-        "caption": "Cadets actively participating in tree plantation drives"
+        "caption": "Regular Sports Activities"
       },
       {
-        "src": "media/Activities/TreePlantation/2.jpeg?w=400&h=300&fit=crop",
+        "src": "media/Activities/ExtraCurriculars/2.jpeg?w=400&h=300&fit=crop",
         "alt": "Green Initiative",
-        "caption": "Green initiative promoting environmental awareness"
+        "caption": "Musical Instruments"
       },
       {
-        "src": "media/Activities/TreePlantation/3.jpeg?w=400&h=300&fit=crop",
+        "src": "media/Activities/ExtraCurriculars/3.jpeg?w=400&h=300&fit=crop",
         "alt": "Sapling Care",
-        "caption": "Caring for newly planted saplings with dedication"
+        "caption": "Running"
       },
       {
-        "src": "media/Activities/TreePlantation/4.jpeg?w=400&h=300&fit=crop",
+        "src": "media/Activities/ExtraCurriculars/4.jpeg?w=400&h=300&fit=crop",
         "alt": "Environmental Awareness",
-        "caption": "Spreading environmental awareness in the community"
+        "caption": "Guitar Jamming"
       },
       {
-        "src": "media/Activities/TreePlantation/5.jpeg?w=400&h=300&fit=crop",
+        "src": "media/Activities/ExtraCurriculars/5.jpeg?w=400&h=300&fit=crop",
         "alt": "Planting Session",
-        "caption": "Community tree planting session for a greener future"
+        "caption": "Public Speaking & Debate"
       },
       {
-        "src": "media/Activities/TreePlantation/6.jpeg?w=400&h=300&fit=crop",
+        "src": "media/Activities/ExtraCurriculars/6.jpeg?w=400&h=300&fit=crop",
         "alt": "Environmental Care",
-        "caption": "Environmental care and conservation activities"
+        "caption": "Group Dance"
+      },
+      {
+        "src": "media/Activities/ExtraCurriculars/7.jpeg?w=400&h=300&fit=crop",
+        "alt": "Sapling Care",
+        "caption": "Football in Futsal"
+      },
+      {
+        "src": "media/Activities/ExtraCurriculars/8.jpeg?w=400&h=300&fit=crop",
+        "alt": "Environmental Awareness",
+        "caption": "Disaster Management and Fire Protection"
+      },
+      {
+        "src": "media/Activities/ExtraCurriculars/9.jpeg?w=400&h=300&fit=crop",
+        "alt": "Planting Session",
+        "caption": "Karate Classes"
+      },
+      {
+        "src": "media/Activities/ExtraCurriculars/10.jpeg?w=400&h=300&fit=crop",
+        "alt": "Environmental Care",
+        "caption": "Weapon Training"
       }
     ]
   },
@@ -111,6 +166,21 @@
     "title": "Startup and Innovation",
     "description": "Involving in impactful project and innovative startups",
     "images": [
+      {
+        "src": "media/Activities/Startups_Projects/7.jpeg?w=400&h=300&fit=crop",
+        "alt": "Idea Innovation",
+        "caption": "Participation in RDC–IGC (Idea & Innovation), held at Sonepur 2025, conducted by Sambalpur Group HQ by SOA NCC cadets Cdt. Ayush R. Pradhan and Cdt. Depesh Singh."
+      },
+      {
+        "src": "media/Activities/Startups_Projects/8.jpeg?w=400&h=300&fit=crop",
+        "alt": "Idea Innovation",
+        "caption": "Participation in RDC–IGC (Idea & Innovation), held at Sonepur 2025, conducted by Sambalpur Group HQ by SOA NCC cadets Cdt. Ayush R. Pradhan and Cdt. Depesh Singh."
+      },
+      {
+        "src": "media/Activities/Startups_Projects/9.jpeg?w=400&h=300&fit=crop",
+        "alt": "Idea Innovation",
+        "caption": "Participation in RDC–IGC (Idea & Innovation), held at Sonepur 2025, conducted by Sambalpur Group HQ by SOA NCC cadets Cdt. Ayush R. Pradhan and Cdt. Depesh Singh."
+      },
       {
         "src": "media/Activities/Startups_Projects/1.jpeg?w=400&h=300&fit=crop",
         "alt": "Cleaning Drive",
@@ -145,8 +215,28 @@
   },
   "social-service": {
     "title": "Social Service Gallery",
-    "description": "Social Service activities and community engagement",
+    "description": "Cleanliness drives, blood donation, village outreach, awareness programs",
     "images": [
+      {
+        "src": "media/Activities/SocialService/6.jpeg?w=400&h=300&fit=crop",
+        "alt": "Guard Formation",
+        "caption": "Our cadets serve society through cleanliness and awareness."
+      },
+      {
+        "src": "media/Activities/SocialService/7.jpeg?w=400&h=300&fit=crop",
+        "alt": "Ceremonial Guard",
+        "caption": "Our cadets serve society through cleanliness and awareness."
+      },
+      {
+        "src": "media/Activities/SocialService/8.jpeg?w=400&h=300&fit=crop",
+        "alt": "Honor Guard",
+        "caption": "Reporting in Media as a cadet for nation"
+      },
+      {
+        "src": "media/Activities/SocialService/9.jpeg?w=400&h=300&fit=crop",
+        "alt": "State Function",
+        "caption": "Our cadets save lives through blood donation."
+      },
       {
         "src": "media/Activities/SocialService/1.jpeg?w=400&h=300&fit=crop",
         "alt": "Guard Formation",
@@ -171,11 +261,6 @@
         "src": "media/Activities/SocialService/5.jpeg?w=400&h=300&fit=crop",
         "alt": "Military Ceremony",
         "caption": "Cadets involved in Puneet Sagar Abhiyan"
-      },
-      {
-        "src": "media/Activities/SocialService/6.jpeg?w=400&h=300&fit=crop",
-        "alt": "Official Ceremony",
-        "caption": "Donation of blood , Save of lives."
       }
     ]
   },
@@ -184,34 +269,59 @@
     "description": "Camp activities and skill development programs",
     "images": [
       {
+        "src": "media/Activities/Camps/7.jpeg?w=400&h=300&fit=crop",
+        "alt": "Mountaineering Camp",
+        "caption": "Leadership and Team Building Camp 2025, part of the Special Adventure Course at the Nehru Institute of Mountaineering, Uttarkashi, Uttarakhand, attended by Cdt. Vivek Ranjan Sahoo."
+      },
+      {
+        "src": "media/Activities/Camps/8.jpeg?w=400&h=300&fit=crop",
+        "alt": "EBSB Camp",
+        "caption": "Ek Bharat Shrestha Bharat Camp held at AAD Centre Gopalpur, Ganjam, Odisha"
+      },
+      {
+        "src": "media/Activities/Camps/9.jpeg?w=400&h=300&fit=crop",
+        "alt": "Idea Innovation",
+        "caption": "Participation in RDC–IGC (Idea & Innovation), held at Sonepur on 16th October 2025, conducted by Sambalpur Group HQ—showcasing creativity, discipline, and innovation by SOA NCC cadets Cdt. Ayush R. Pradhan and Cdt. Depesh Singh."
+      },
+      {
+        "src": "media/Activities/Camps/10.jpeg?w=400&h=300&fit=crop",
+        "alt": "IGC TSC 2025",
+        "caption": "Four cadets from SOA NCC completed IGC TSC 2025."
+      },
+      {
         "src": "media/Activities/Camps/1.jpeg?w=400&h=300&fit=crop",
-        "alt": "Adventure Camp",
-        "caption": "Adventure training camps building courage and resilience"
+        "alt": "ALC 2025",
+        "caption": "Six SOA NCC cadets successfully completed the Advanced Leadership Camp at NIT Rourkela, representing 4(O) CTC NCC, Cuttack Group, and Odisha Directorate at the national level."
       },
       {
         "src": "media/Activities/Camps/2.jpeg?w=400&h=300&fit=crop",
-        "alt": "Training Session",
-        "caption": "Intensive training sessions for leadership development"
-      },
-      {
-        "src": "media/Activities/Camps/3.jpeg?w=400&h=300&fit=crop",
-        "alt": "Outdoor Activities",
-        "caption": "JUO Abinash Nanda represented India at the Youth Exchange Program (YEP) in Kyrgyzstan, showcasing dedication and bringing pride to SOA NCC."
+        "alt": "AITSC 2024",
+        "caption": "Three cadets from SOA NCC represented the Odisha Directorate at the All India Thal Sainik Camp, DG NCC New Delhi."
       },
       {
         "src": "media/Activities/Camps/4.jpeg?w=400&h=300&fit=crop",
         "alt": "Skill Building",
-        "caption": "Skill building exercises in natural environments"
+        "caption": "Participation in the 32nd AIGVMSC at AMU, Mhow (2023) as a member of the National NCC Shooting Team, following completion of the Pre-AIGVMSC Coaching Camp, with selection in the 50m peep sight prone women’s category."
+      },
+      {
+        "src": "media/Activities/Camps/3.jpeg?w=400&h=300&fit=crop",
+        "alt": "YEP Camp",
+        "caption": "JUO Abinash Nanda represented India at the Youth Exchange Program (YEP) in Kyrgyzstan, showcasing dedication and bringing pride to SOA NCC."
       },
       {
         "src": "media/Activities/Camps/5.jpeg?w=400&h=300&fit=crop",
-        "alt": "Camp Training",
-        "caption": "Comprehensive training programs in camp settings"
+        "alt": "YEP Camp",
+        "caption": "JUO Abinash Nanda represented India at the Youth Exchange Program (YEP) in Kyrgyzstan, showcasing dedication and bringing pride to SOA NCC."
       },
       {
         "src": "media/Activities/Camps/6.jpeg?w=400&h=300&fit=crop",
         "alt": "Adventure Training",
         "caption": "Three SOA NCC cadets—CDT Abinash Nanda, CDT Abhishek Bhanja, and CDT Debi Prasad Dash—were selected for the prestigious Republic Day Camp 2024, setting a new benchmark for 4 O CTC."
+      },
+      {
+        "src": "media/Activities/Camps/11.jpeg?w=400&h=300&fit=crop",
+        "alt": "CATC 2025",
+        "caption": "Combined Annual Training Camp 2025 held at ITER SOA DU."
       }
     ]
   }
