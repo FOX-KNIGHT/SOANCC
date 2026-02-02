@@ -28,12 +28,10 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? "bg-ncc-navy/90 backdrop-blur-md shadow-lg py-2" : "bg-transparent py-4"
-      }`}
+      className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-ncc-navy/90 backdrop-blur-md shadow-lg py-2" : "bg-transparent py-4"
+        }`}
     >
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
-        {/* Left: Logo & Brand */}
         <div className="flex items-center gap-4">
           <Link href="/" className="flex items-center gap-3 group">
             <div className="relative w-12 h-12 overflow-hidden rounded-lg transition-transform group-hover:scale-110">
@@ -51,7 +49,6 @@ export default function Navbar() {
           </Link>
         </div>
 
-        {/* Desktop Menu */}
         <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => (
             <Link
@@ -74,16 +71,15 @@ export default function Navbar() {
             rel="noopener noreferrer"
             className="relative w-12 h-12 hover:scale-110 transition-transform"
           >
-             <Image
-                src="/media/Logo/SOA_logo.png"
-                alt="SOA University Logo"
-                fill
-                className="object-contain rounded-md"
-              />
+            <Image
+              src="/media/Logo/SOA_logo.png"
+              alt="SOA University Logo"
+              fill
+              className="object-contain rounded-md"
+            />
           </a>
         </div>
 
-        {/* Mobile Menu Button */}
         <button
           className="md:hidden text-white"
           onClick={() => setIsOpen(!isOpen)}
@@ -93,7 +89,6 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu Overlay */}
       {isOpen && (
         <div className="md:hidden absolute top-full left-0 w-full bg-ncc-navy/95 backdrop-blur-xl border-t border-white/10 shadow-xl flex flex-col py-6">
           {navLinks.map((link) => (
@@ -107,7 +102,7 @@ export default function Navbar() {
             </Link>
           ))}
           <div className="mt-4 px-8">
-             <Link
+            <Link
               href="#join"
               className="inline-block px-8 py-3 bg-gradient-to-r from-ncc-orange to-orange-500 text-white font-semibold rounded-lg shadow-md w-full text-center"
               onClick={() => setIsOpen(false)}

@@ -4,7 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import galleryData from "@/data/gallery-data.json";
 
-// Type definition for the gallery data
+
 type GalleryCategory = {
     title: string;
     description: string;
@@ -19,7 +19,6 @@ type GalleryData = {
     [key: string]: GalleryCategory;
 };
 
-// Map keys to readable labels if needed, or use the 'title' from JSON
 const categories = Object.keys(galleryData as GalleryData);
 
 export default function GalleryGrid() {
@@ -28,11 +27,9 @@ export default function GalleryGrid() {
 
     return (
         <div className="max-w-7xl mx-auto px-6 py-12">
-            {/* Tabs */}
             <div className="flex flex-wrap justify-center gap-4 mb-12">
                 {categories.map((cat) => {
                     const catTitle = (galleryData as GalleryData)[cat].title;
-                    // Simplify titles for tabs if they are long
                     const label = catTitle.replace(" Gallery", "");
 
                     return (
@@ -40,8 +37,8 @@ export default function GalleryGrid() {
                             key={cat}
                             onClick={() => setActiveTab(cat)}
                             className={`px-6 py-2 rounded-full font-medium transition-all duration-300 ${activeTab === cat
-                                    ? "bg-ncc-navy text-white shadow-lg scale-105"
-                                    : "bg-white text-gray-600 hover:bg-gray-100 border border-gray-200"
+                                ? "bg-ncc-navy text-white shadow-lg scale-105"
+                                : "bg-white text-gray-600 hover:bg-gray-100 border border-gray-200"
                                 }`}
                         >
                             {label}
@@ -50,7 +47,6 @@ export default function GalleryGrid() {
                 })}
             </div>
 
-            {/* Content */}
             <div className="animate-in fade-in duration-500">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl font-bold text-gray-900 mb-2">{data.title}</h2>
@@ -62,7 +58,7 @@ export default function GalleryGrid() {
                         <div key={idx} className="group relative break-inside-avoid">
                             <div className="relative h-[300px] w-full rounded-xl overflow-hidden shadow-md">
                                 <Image
-                                    src={`/${img.src.split('?')[0]}`} // Remove query params from legacy paths
+                                    src={`/${img.src.split('?')[0]}`}
                                     alt={img.alt}
                                     fill
                                     className="object-cover transition-transform duration-500 group-hover:scale-110"

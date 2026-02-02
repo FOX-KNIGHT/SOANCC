@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Mail, Linkedin } from "lucide-react";
 import rankData from "@/data/rank-data.json";
 
-// Types
+
 type Social = {
     linkedin?: string;
     email?: string;
@@ -38,7 +38,6 @@ type RankData = {
 
 const data = rankData as RankData;
 
-// Rank Order for display
 const rankOrder = ["SUO", "JUO", "CQMS", "SGT", "CPL", "LCPL"];
 
 export default function RankList() {
@@ -47,14 +46,13 @@ export default function RankList() {
 
     return (
         <div className="max-w-7xl mx-auto px-6 py-12">
-            {/* Tabs */}
             <div className="flex justify-center mb-12">
                 <div className="bg-white p-2 rounded-full shadow-md border border-gray-100 flex gap-2">
                     <button
                         onClick={() => setActiveTab("sd")}
                         className={`px-8 py-3 rounded-full font-bold transition-all ${activeTab === "sd"
-                                ? "bg-ncc-navy text-white shadow-md"
-                                : "text-gray-500 hover:bg-gray-50"
+                            ? "bg-ncc-navy text-white shadow-md"
+                            : "text-gray-500 hover:bg-gray-50"
                             }`}
                     >
                         Senior Division (SD)
@@ -62,8 +60,8 @@ export default function RankList() {
                     <button
                         onClick={() => setActiveTab("sw")}
                         className={`px-8 py-3 rounded-full font-bold transition-all ${activeTab === "sw"
-                                ? "bg-ncc-navy text-white shadow-md"
-                                : "text-gray-500 hover:bg-gray-50"
+                            ? "bg-ncc-navy text-white shadow-md"
+                            : "text-gray-500 hover:bg-gray-50"
                             }`}
                     >
                         Senior Wing (SW)
@@ -107,7 +105,6 @@ export default function RankList() {
                                             />
                                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60" />
 
-                                            {/* Social Overlay */}
                                             <div className="absolute top-4 right-4 flex flex-col gap-2 translate-x-10 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300">
                                                 {officer.social.linkedin && officer.social.linkedin !== "#" && (
                                                     <a href={officer.social.linkedin} target="_blank" rel="noopener noreferrer" className="bg-white/90 p-2 rounded-full text-blue-600 hover:bg-white transition-colors">

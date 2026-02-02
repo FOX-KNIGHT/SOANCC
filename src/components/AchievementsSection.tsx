@@ -56,7 +56,6 @@ export default function AchievementsSection() {
 
     return (
         <section id="achievements" className="py-20 bg-ncc-navy text-white relative overflow-hidden">
-            {/* Background Overlay */}
             <div className="absolute inset-0 bg-black/40 z-0"></div>
 
             <div className="max-w-7xl mx-auto px-6 relative z-10">

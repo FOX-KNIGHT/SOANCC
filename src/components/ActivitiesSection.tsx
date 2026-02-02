@@ -69,7 +69,6 @@ export default function ActivitiesSection() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {activities.map((activity) => (
                         <div key={activity.id} className="group relative rounded-2xl overflow-hidden shadow-lg h-[400px]">
-                            {/* Image */}
                             <div className="absolute inset-0">
                                 <Image
                                     src={activity.image}
@@ -80,13 +79,11 @@ export default function ActivitiesSection() {
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-80 group-hover:opacity-90 transition-opacity" />
                             </div>
 
-                            {/* Default Content */}
                             <div className="absolute bottom-0 left-0 w-full p-6 transform transition-transform duration-500 group-hover:translate-y-full">
                                 <h3 className="text-2xl font-bold text-white mb-2">{activity.title}</h3>
                                 <p className="text-gray-200 line-clamp-2">{activity.description}</p>
                             </div>
 
-                            {/* Hover Content */}
                             <div className="absolute inset-0 flex flex-col justify-center items-center p-8 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-black/60 backdrop-blur-sm">
                                 <p className="text-white text-lg mb-6 leading-relaxed shadow-sm">
                                     {activity.details}

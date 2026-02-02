@@ -15,12 +15,10 @@ export default function AboutSection() {
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                    {/* Slideshow */}
                     <div className="w-full">
                         <AboutSlideshow />
                     </div>
 
-                    {/* Content */}
                     <div className="text-center lg:text-left space-y-6">
                         <h2 className="text-4xl font-bold text-gray-900 leading-tight">
                             About <span className="text-ncc-navy">SOA NCC</span>

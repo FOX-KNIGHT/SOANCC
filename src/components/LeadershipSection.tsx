@@ -90,14 +90,11 @@ export default function LeadershipSection() {
                     </p>
                 </div>
 
-                {/* Commander */}
                 <div className="mb-20">
                     <OfficerCard officer={officers.commander} isCommander />
                 </div>
 
-                {/* Divisions */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    {/* SD Division */}
                     <div className="space-y-8">
                         <div className="text-center">
                             <h3 className="text-2xl font-bold text-ncc-navy inline-block border-b-4 border-ncc-orange pb-2">
@@ -111,7 +108,6 @@ export default function LeadershipSection() {
                         </div>
                     </div>
 
-                    {/* SW Division */}
                     <div className="space-y-8">
                         <div className="text-center">
                             <h3 className="text-2xl font-bold text-ncc-navy inline-block border-b-4 border-ncc-green pb-2">

@@ -37,7 +37,6 @@ export default function AboutSlideshow() {
                 </div>
             ))}
 
-            {/* Indicators */}
             <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 bg-black/30 backdrop-blur-sm px-3 py-1.5 rounded-full">
                 {images.map((_, index) => (
                     <button

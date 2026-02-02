@@ -29,7 +29,6 @@ export default function Hero() {
 
     return (
         <section id="home" className="relative h-screen w-full overflow-hidden flex items-center justify-center">
-            {/* Background Image */}
             <div className="absolute inset-0 z-0">
                 <Image
                     src="/media/HeroPage/HeroImage.jpeg"
@@ -38,11 +37,9 @@ export default function Hero() {
                     className="object-cover"
                     priority
                 />
-                {/* Overlay */}
-                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute inset-0 bg-black/40 z-0"></div>
             </div>
 
-            {/* Content */}
             <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto mt-[-50px]">
                 <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-4 tracking-tight">
                     <span className="bg-gradient-to-br from-ncc-orange via-white to-ncc-green bg-clip-text text-transparent drop-shadow-lg">
@@ -56,8 +53,7 @@ export default function Hero() {
                     Discipline. Leadership. Service.
                 </p>
 
-                {/* Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-in fade-in slide-in-from-bottom-8 duration-1000 delay-300">
                     <button
                         onClick={() => scrollToSection("about")}
                         className="px-8 py-3 rounded-xl bg-white/20 backdrop-blur-md border border-white/30 text-white font-semibold hover:bg-white/40 hover:scale-105 transition-all shadow-lg"
@@ -79,12 +75,10 @@ export default function Hero() {
                 </div>
             </div>
 
-            {/* Scroll Indicator */}
-            <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 animate-bounce cursor-pointer" onClick={() => scrollToSection("about")}>
+            <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 text-white/50 animate-bounce cursor-pointer" onClick={() => scrollToSection("about")}>
                 <ChevronDown size={40} className="text-white opacity-80" />
             </div>
 
-            {/* Music Control */}
             <button
                 onClick={toggleAudio}
                 className={`fixed bottom-6 left-6 z-50 w-14 h-14 flex items-center justify-center rounded-full backdrop-blur-md border border-white/30 transition-all shadow-xl ${isMuted ? "bg-gray-500/30 text-white/70" : "bg-ncc-blue/50 text-white border-white scale-110"
@@ -94,7 +88,6 @@ export default function Hero() {
                 {isMuted ? <VolumeX size={24} /> : <Volume2 size={24} />}
             </button>
 
-            {/* Audio Element */}
             <audio ref={audioRef} loop playsInline src="/media/HeroPage/hero-music.mp3" />
         </section>
     );

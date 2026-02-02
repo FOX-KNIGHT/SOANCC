@@ -8,7 +8,6 @@ export default function Footer() {
         <footer className="bg-ncc-navy text-white pt-16 pb-8">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
-                    {/* Brand */}
                     <div className="space-y-4">
                         <h2 className="text-2xl font-bold bg-gradient-to-r from-ncc-orange to-ncc-green bg-clip-text text-transparent">
                             SOA NCC
@@ -22,7 +21,6 @@ export default function Footer() {
                         </p>
                     </div>
 
-                    {/* Quick Links */}
                     <div>
                         <h3 className="text-lg font-semibold text-white mb-6">Quick Links</h3>
                         <ul className="space-y-3">
@@ -45,7 +43,6 @@ export default function Footer() {
                         </ul>
                     </div>
 
-                    {/* Contact Us */}
                     <div>
                         <h3 className="text-lg font-semibold text-white mb-6">Contact Us</h3>
                         <ul className="space-y-4">
@@ -69,7 +66,6 @@ export default function Footer() {
                         </ul>
                     </div>
 
-                    {/* Social & Newsletter */}
                     <div>
                         <h3 className="text-lg font-semibold text-white mb-6">Follow Us</h3>
                         <div className="flex gap-4 mb-8">
