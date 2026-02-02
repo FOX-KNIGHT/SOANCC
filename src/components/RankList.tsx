@@ -44,6 +44,8 @@ export default function RankList() {
     const [activeTab, setActiveTab] = useState<"sd" | "sw">("sd");
     const activeSection = data.sections[activeTab];
 
+    if (!activeSection) return null;
+
     return (
         <div className="max-w-7xl mx-auto px-6 py-12">
             <div className="flex justify-center mb-12">

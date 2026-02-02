@@ -25,6 +25,8 @@ export default function GalleryGrid() {
     const [activeTab, setActiveTab] = useState(categories[0]);
     const data = (galleryData as GalleryData)[activeTab];
 
+    if (!data) return null;
+
     return (
         <div className="max-w-7xl mx-auto px-6 py-12">
             <div className="flex flex-wrap justify-center gap-4 mb-12">
