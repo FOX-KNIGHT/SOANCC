@@ -9,42 +9,42 @@ const activities = [
         id: "parade",
         title: "Drill & Discipline",
         description: "Precision drill and ceremonial parades showcasing discipline and coordination.",
-        image: "/media/Activities/parade.jpg",
+        image: "/SOANCC/media/Activities/parade.jpg",
         details: "Experience the precision and discipline of NCC parade platoon. Our cadets demonstrate exceptional coordination through synchronized drill movements and ceremonial displays."
     },
     {
         id: "adventure",
         title: "Adventure Activities",
         description: "NCC cadets train in mountaineering, trekking, and survival skills through adventure camps.",
-        image: "/media/Activities/Mountaineering.jpeg",
+        image: "/SOANCC/media/Activities/Mountaineering.jpeg",
         details: "Take part in trekking, camping, mountaineering, survival skills, and other adventure activities that build courage, endurance, teamwork, and confidence."
     },
     {
         id: "extracurricular",
         title: "Extracurricular Activities",
         description: "Involvement of cadets in Sports, Debate, Cultural, Drone Tech, Public Speaking, etc.",
-        image: "/media/Activities/extracurricular.jpeg",
+        image: "/SOANCC/media/Activities/extracurricular.jpeg",
         details: "Contributing to environmental conservation through extensive tree plantation drives. We're committed to creating a greener future for generations to come."
     },
     {
         id: "innovation",
         title: "Startup & Innovation",
         description: "Fostering creativity and entrepreneurial spirit among cadets.",
-        image: "/media/Activities/NCCday_Startup.jpeg",
+        image: "/SOANCC/media/Activities/NCCday_Startup.jpeg",
         details: "Encouraging innovative thinking and problem-solving. Our cadets actively participate in startup challenges, hackathons, and projects that address real-world needs."
     },
     {
         id: "camps",
         title: "National Camps",
         description: "Cadets earn national/state representation through national camps like YEP, RDC, TSC, etc.",
-        image: "/media/Activities/camps.jpeg",
+        image: "/SOANCC/media/Activities/camps.jpeg",
         details: "Cadets actively participate in national and international-level camps and competitions, engaging in leadership and skill-building activities to gain knowledge, confidence, and experience."
     },
     {
         id: "social",
         title: "Social Service",
         description: "Serving communities through health camps, cleanliness drives, and disaster relief.",
-        image: "/media/Activities/social-service.jpeg",
+        image: "/SOANCC/media/Activities/social-service.jpeg",
         details: "Our cadets support society through disaster relief, blood donation, cleanliness drives, and awareness campaigns, building empathy and responsibility."
     }
 ];

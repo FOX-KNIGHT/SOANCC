@@ -9,7 +9,7 @@ const alumni = [
         position: "Sub Lieutenant",
         achievement: "Indian Navy",
         desc: "Successfully recommended at 33 SSB Bhopal for Navy SSC IT, exemplifying technical excellence and leadership in naval service.",
-        image: "/media/Alumni/Susant_dhar.png",
+        image: "/SOANCC/media/Alumni/Susant_dhar.png",
         stats: [
             { icon: <Anchor size={16} />, label: "Navy" },
             { icon: <Building size={16} />, label: "IT Officer" },
@@ -20,7 +20,7 @@ const alumni = [
         position: "OPSC Officer",
         achievement: "Rank 278 (2022)",
         desc: "Serving with distinction as a Group B Officer in Odisha Government, contributing to state administration excellence.",
-        image: "/media/Alumni/Kumar_Abinash.png",
+        image: "/SOANCC/media/Alumni/Kumar_Abinash.png",
         stats: [
             { icon: <Building size={16} />, label: "OPSC" },
             { icon: <Trophy size={16} />, label: "Rank 278" },
@@ -31,7 +31,7 @@ const alumni = [
         position: "Lieutenant",
         achievement: "Indian Army",
         desc: "Commissioned as Lieutenant in the Indian Army, leading with honor after completing training at OTA Chennai.",
-        image: "/media/Alumni/Ankit_Biswal.png",
+        image: "/SOANCC/media/Alumni/Ankit_Biswal.png",
         stats: [
             { icon: <Building size={16} />, label: "Army" },
             { icon: <Trophy size={16} />, label: "Lieutenant" },

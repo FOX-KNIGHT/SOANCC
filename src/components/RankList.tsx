@@ -98,7 +98,7 @@ export default function RankList() {
                                     >
                                         <div className="relative h-[280px] bg-gray-100 group">
                                             <Image
-                                                src={`/${officer.image}`}
+                                                src={`/SOANCC/${officer.image}`}
                                                 alt={officer.name}
                                                 fill
                                                 className="object-cover object-top transition-transform duration-500 group-hover:scale-105"

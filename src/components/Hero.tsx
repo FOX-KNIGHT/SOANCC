@@ -31,7 +31,7 @@ export default function Hero() {
         <section id="home" className="relative h-screen w-full overflow-hidden flex items-center justify-center">
             <div className="absolute inset-0 z-0">
                 <Image
-                    src="/media/HeroPage/HeroImage.jpeg"
+                    src="/SOANCC/media/HeroPage/HeroImage.jpeg"
                     alt="NCC Hero Background"
                     fill
                     className="object-cover"
@@ -88,7 +88,7 @@ export default function Hero() {
                 {isMuted ? <VolumeX size={24} /> : <Volume2 size={24} />}
             </button>
 
-            <audio ref={audioRef} loop playsInline src="/media/HeroPage/hero-music.mp3" />
+            <audio ref={audioRef} loop playsInline src="/SOANCC/media/HeroPage/hero-music.mp3" />
         </section>
     );
 }

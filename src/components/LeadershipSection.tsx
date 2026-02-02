@@ -8,20 +8,20 @@ const officers = {
         name: "Col Satyabrata Swain",
         rank: "Group Commander",
         quote: "Leadership is earned through courage and responsibility.",
-        image: "/media/Officers/GC_Satyabrata_Swain.png",
+        image: "/SOANCC/media/Officers/GC_Satyabrata_Swain.png",
     },
     sd: [
         {
             name: "Lt Col Shantanu Dey",
             position: "Officer Commanding (OC)",
             quote: "Discipline is the foundation of true strength.",
-            image: "/media/Officers/OC_Shantunu_Dey.jpg",
+            image: "/SOANCC/media/Officers/OC_Shantunu_Dey.jpg",
         },
         {
             name: "Sreyansu Satya Prakash",
             position: "Care Taker Officer (CTO)",
             quote: "Duty performed with honor builds lasting respect.",
-            image: "/media/Officers/CTO_Sreyanshu_Satya_Prakash.png",
+            image: "/SOANCC/media/Officers/CTO_Sreyanshu_Satya_Prakash.png",
         },
     ],
     sw: [
@@ -29,13 +29,13 @@ const officers = {
             name: "Col Sanjeev Dewan",
             position: "Commanding Officer (CO)",
             quote: "Discipline and determination create unstoppable leaders.",
-            image: "/media/Officers/CO_Sanjeev_Dewan.jpg",
+            image: "/SOANCC/media/Officers/CO_Sanjeev_Dewan.jpg",
         },
         {
             name: "Dr. Rima Sahani",
             position: "Care Taker Officer (CTO)",
             quote: "Resilience and willpower shape the strongest warriors.",
-            image: "/media/Officers/CTO_Rima_Sahani.png",
+            image: "/SOANCC/media/Officers/CTO_Rima_Sahani.png",
         },
     ],
 };

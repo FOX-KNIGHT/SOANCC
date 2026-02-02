@@ -58,7 +58,7 @@ export default function GalleryGrid() {
                         <div key={idx} className="group relative break-inside-avoid">
                             <div className="relative h-[300px] w-full rounded-xl overflow-hidden shadow-md">
                                 <Image
-                                    src={`/${img.src.split('?')[0]}`}
+                                    src={`/SOANCC/${img.src.split('?')[0]}`}
                                     alt={img.alt}
                                     fill
                                     className="object-cover transition-transform duration-500 group-hover:scale-110"

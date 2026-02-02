@@ -36,7 +36,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-3 group">
             <div className="relative w-12 h-12 overflow-hidden rounded-lg transition-transform group-hover:scale-110">
               <Image
-                src="/media/Logo/NCC_logo.png"
+                src="/SOANCC/media/Logo/NCC_logo.png"
                 alt="SOA NCC Logo"
                 fill
                 className="object-contain"
@@ -72,7 +72,7 @@ export default function Navbar() {
             className="relative w-12 h-12 hover:scale-110 transition-transform"
           >
             <Image
-              src="/media/Logo/SOA_logo.png"
+              src="/SOANCC/media/Logo/SOA_logo.png"
               alt="SOA University Logo"
               fill
               className="object-contain rounded-md"

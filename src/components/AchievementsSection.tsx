@@ -8,42 +8,42 @@ const achievements = [
     {
         title: "MOUNTAINEERING CAMP",
         desc: "CDT Vivek Ranjan Sahoo was one of 150 cadets to attend Leadership & Team Building Camp at NIM Uttarkashi.",
-        image: "/media/Achievement/MountaineeringCamp.jpeg",
+        image: "/SOANCC/media/Achievement/MountaineeringCamp.jpeg",
     },
     {
         title: "AITSC 2025",
         desc: "2 Cadets from SOA NCC represented Odisha Directorate at the All India Thal Sainik Camp, DG NCC New Delhi",
-        image: "/media/Achievement/AITSC2025.png",
+        image: "/SOANCC/media/Achievement/AITSC2025.png",
     },
     {
         title: "ID STATE PARADE",
         desc: "Best Senior Division Boys Platoon Trophy by the Honorable Chief Minister of Odisha.",
-        image: "/media/Achievement/ID-STATE-PARADE.png",
+        image: "/SOANCC/media/Achievement/ID-STATE-PARADE.png",
     },
     {
         title: "EBSB CAMP",
         desc: "3 Cadets of SOA NCC got selected in Ek Bharat Shrestha Bharat Camp held at AAD Centre Gopalpur, Ganjam, Odisha",
-        image: "/media/Achievement/EBSB.jpeg",
+        image: "/SOANCC/media/Achievement/EBSB.jpeg",
     },
     {
         title: "YEP 2024",
         desc: "SUO Abinash Nanda represented India at the Youth Exchange Program (YEP) in Kyrgyzstan.",
-        image: "/media/Achievement/YEP.png",
+        image: "/SOANCC/media/Achievement/YEP.png",
     },
     {
         title: "AITSC 2024",
         desc: "All India Thal Sainik Camp representation with outstanding performance at Rajpath, New Delhi.",
-        image: "/media/Achievement/TSC2024.png",
+        image: "/SOANCC/media/Achievement/TSC2024.png",
     },
     {
         title: "Capital Day Awards",
         desc: "6 SOA NCC Cadets won 2nd Prize at the 77th Capital Foundation Day Parade.",
-        image: "/media/Achievement/CapitalFoundationDay.png",
+        image: "/SOANCC/media/Achievement/CapitalFoundationDay.png",
     },
     {
         title: "DG NCC Medallion",
         desc: "CDT Bidisha Karna received the DG NCC Medallion and qualified for the 66th NSCC, New Delhi.",
-        image: "/media/Achievement/DG_NCC_Shooting.jpg",
+        image: "/SOANCC/media/Achievement/DG_NCC_Shooting.jpg",
     },
 
 ];
