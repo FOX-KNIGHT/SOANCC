@@ -48,33 +48,39 @@ const OfficerCard = ({
     isCommander?: boolean;
 }) => (
     <div
-        className={`relative bg-white rounded-2xl overflow-hidden shadow-xl border border-gray-100 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group ${isCommander ? "max-w-sm mx-auto" : "max-w-[200px] mx-auto"
+        className={`group bg-white rounded-xl overflow-hidden shadow-md border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col h-full ring-1 ring-black/5 ${isCommander ? "max-w-md mx-auto" : "w-full"
             }`}
     >
-        {/* Decorative Tricolor Line */}
-        <div className="absolute top-0 left-0 right-0 h-1 z-20 bg-gradient-to-r from-orange-500 via-white to-green-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-
-        <div className={`relative w-full aspect-[3/4] overflow-hidden bg-gray-100`}>
+        <div className="relative aspect-[3/4] overflow-hidden bg-gray-100">
             <Image
                 src={officer.image}
                 alt={officer.name}
                 fill
-                className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
+                className="object-cover object-top transition-transform duration-700 group-hover:scale-110"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-ncc-navy/90 via-transparent to-transparent opacity-90" />
-            <div className="absolute bottom-5 left-5 right-5 text-white">
-                <div className="flex items-center gap-2 mb-2 opacity-80">
-                    {isCommander && <Star size={16} className="text-orange-400 fill-orange-400" />}
-                </div>
-                <h3 className={`${isCommander ? "text-2xl" : "text-xl"} font-bold tracking-tight`}>{officer.name}</h3>
-                <p className="text-ncc-blue font-medium text-sm tracking-wide uppercase bg-white/10 backdrop-blur-sm inline-block px-2 py-0.5 rounded mt-1 border border-white/20">
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-60"></div>
+
+            {/* Tricolor Top Border on Hover */}
+            <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-ncc-red via-ncc-navy to-ncc-blue opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+
+            <div className="absolute bottom-3 left-3 right-3">
+                {isCommander && (
+                    <div className="flex items-center gap-1 mb-1 text-orange-400">
+                        <Star size={16} fill="currentColor" />
+                    </div>
+                )}
+                <span className="text-white text-xs font-medium bg-white/20 backdrop-blur-md px-2 py-1 rounded border border-white/30 inline-block">
                     {officer.rank || officer.position}
-                </p>
+                </span>
             </div>
         </div>
-        <div className="p-6 bg-white relative">
-            <Quote className="absolute top-4 right-4 text-ncc-navy/5 w-10 h-10 rotate-180" />
-            <p className="text-gray-600 italic font-medium leading-relaxed relative z-10 text-[15px]">
+
+        <div className="p-4 flex flex-col flex-grow bg-white relative">
+            <Quote className="absolute top-3 right-3 text-ncc-navy/5 w-6 h-6 rotate-180" />
+            <h3 className="text-lg font-bold text-gray-900 leading-tight mb-1 group-hover:text-ncc-blue transition-colors">
+                {officer.name}
+            </h3>
+            <p className="text-gray-500 text-sm leading-relaxed italic mt-2 line-clamp-3">
                 &quot;{officer.quote}&quot;
             </p>
         </div>
@@ -104,38 +110,20 @@ export default function LeadershipSection() {
                     </p>
                 </div>
 
-                <div className="mb-20">
+                <div className="mb-12">
                     <OfficerCard officer={officers.commander} isCommander />
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div className="space-y-8">
-                        <div className="text-center relative">
-                            <div className="absolute left-0 right-0 top-1/2 h-px bg-gray-200 -z-10"></div>
-                            <h3 className="text-2xl font-bold text-ncc-navy inline-block bg-ncc-light px-6">
-                                Senior Division
-                            </h3>
-                        </div>
-                        <div className="grid gap-8">
-                            {officers.sd.map((officer, idx) => (
-                                <OfficerCard key={idx} officer={officer} />
-                            ))}
-                        </div>
-                    </div>
+                <div className="text-center relative mb-8">
+                    <span className="relative z-10 px-4 bg-ncc-light text-xl font-bold text-ncc-navy">Senior Division & Wing</span>
+                    <div className="absolute left-0 right-0 top-1/2 h-px bg-gray-200 -z-10"></div>
+                </div>
 
-                    <div className="space-y-8">
-                        <div className="text-center relative">
-                            <div className="absolute left-0 right-0 top-1/2 h-px bg-gray-200 -z-10"></div>
-                            <h3 className="text-2xl font-bold text-ncc-navy inline-block bg-ncc-light px-6">
-                                Senior Wing
-                            </h3>
-                        </div>
-                        <div className="grid gap-8">
-                            {officers.sw.map((officer, idx) => (
-                                <OfficerCard key={idx} officer={officer} />
-                            ))}
-                        </div>
-                    </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    {/* Combine SD and SW arrays for a single unified grid */}
+                    {[...officers.sd, ...officers.sw].map((officer, idx) => (
+                        <OfficerCard key={idx} officer={officer} />
+                    ))}
                 </div>
             </div>
         </section>
