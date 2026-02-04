@@ -48,7 +48,7 @@ const OfficerCard = ({
     isCommander?: boolean;
 }) => (
     <div
-        className={`group bg-white rounded-xl overflow-hidden shadow-md border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col h-full ring-1 ring-black/5 ${isCommander ? "max-w-md mx-auto" : "w-full"
+        className={`group bg-white rounded-xl overflow-hidden shadow-md border border-gray-100 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col h-full ring-1 ring-black/5 ${isCommander ? "max-w-sm mx-auto" : "w-full"
             }`}
     >
         <div className="relative aspect-[3/4] overflow-hidden bg-gray-100">
