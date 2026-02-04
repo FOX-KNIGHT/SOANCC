@@ -40,7 +40,7 @@ const objectives = [
 
 export default function ObjectivesSection() {
     return (
-        <section id="objectives" className="py-20 bg-ncc-light relative overflow-hidden">
+        <section id="objectives" className="py-12 md:py-20 bg-ncc-light relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 opacity-30 pointer-events-none">
                 <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-blue-200/50 rounded-full blur-[100px]" />
                 <div className="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] bg-red-200/40 rounded-full blur-[100px]" />

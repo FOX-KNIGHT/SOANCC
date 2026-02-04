@@ -55,15 +55,14 @@ export default function GalleryGrid() {
                     <p className="text-gray-600">{data.description}</p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="columns-1 md:columns-2 lg:columns-3 gap-8 space-y-8">
                     {data.images.map((img, idx) => (
                         <div key={idx} className="group relative break-inside-avoid">
-                            <div className="relative h-[300px] w-full rounded-xl overflow-hidden shadow-md">
-                                <Image
+                            <div className="relative w-full rounded-xl overflow-hidden shadow-md">
+                                <img
                                     src={`/SOANCC/${img.src.split('?')[0]}`}
                                     alt={img.alt}
-                                    fill
-                                    className="object-cover transition-transform duration-500 group-hover:scale-110"
+                                    className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
                                 />
                                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-6 text-center">
                                     <p className="text-white font-medium">{img.caption}</p>

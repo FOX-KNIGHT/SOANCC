@@ -55,7 +55,7 @@ export default function AchievementsSection() {
     const next = () => setCurrent((c) => (c === achievements.length - 1 ? 0 : c + 1));
 
     return (
-        <section id="achievements" className="py-20 bg-ncc-navy text-white relative overflow-hidden">
+        <section id="achievements" className="py-12 md:py-20 bg-ncc-navy text-white relative overflow-hidden">
             <div className="absolute inset-0 bg-black/40 z-0"></div>
 
             <div className="max-w-7xl mx-auto px-6 relative z-10">
@@ -71,7 +71,7 @@ export default function AchievementsSection() {
                 </div>
 
                 <div className="relative max-w-5xl mx-auto bg-white/5 backdrop-blur-md rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
-                    <div className="relative aspect-[16/9] md:aspect-[21/9]">
+                    <div className="relative aspect-[4/3] md:aspect-[21/9]">
                         <Image
                             src={achievements[current].image}
                             alt={achievements[current].title}
@@ -80,8 +80,8 @@ export default function AchievementsSection() {
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-90" />
 
-                        <div className="absolute bottom-0 left-0 w-full p-8 md:p-12">
-                            <h3 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-orange-400 to-yellow-400 bg-clip-text text-transparent">
+                        <div className="absolute bottom-0 left-0 w-full p-6 md:p-12">
+                            <h3 className="text-2xl md:text-4xl font-bold mb-2 md:mb-4 bg-gradient-to-r from-orange-400 to-yellow-400 bg-clip-text text-transparent">
                                 {achievements[current].title}
                             </h3>
                             <p className="text-lg md:text-xl text-gray-200 max-w-3xl leading-relaxed">
