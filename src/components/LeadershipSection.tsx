@@ -48,7 +48,7 @@ const OfficerCard = ({
     isCommander?: boolean;
 }) => (
     <div
-        className={`relative bg-white rounded-2xl overflow-hidden shadow-xl border border-gray-100 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group ${isCommander ? "max-w-sm mx-auto" : "max-w-[260px] mx-auto"
+        className={`relative bg-white rounded-2xl overflow-hidden shadow-xl border border-gray-100 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group ${isCommander ? "max-w-sm mx-auto" : "max-w-[200px] mx-auto"
             }`}
     >
         {/* Decorative Tricolor Line */}
