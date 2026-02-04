@@ -42,7 +42,7 @@ export default function Hero() {
 
             <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto mt-0 md:mt-[-50px]">
                 <h1 className="text-4xl md:text-7xl lg:text-8xl font-bold mb-4 tracking-tight">
-                    <span className="bg-gradient-to-br from-ncc-orange via-white to-ncc-green bg-clip-text text-transparent drop-shadow-lg">
+                    <span className="bg-gradient-to-r from-ncc-red via-ncc-navy to-ncc-blue bg-clip-text text-transparent drop-shadow-lg animate-shimmer">
                         SOA NCC
                     </span>
                 </h1>

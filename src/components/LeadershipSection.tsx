@@ -48,7 +48,7 @@ const OfficerCard = ({
     isCommander?: boolean;
 }) => (
     <div
-        className={`relative bg-white rounded-2xl overflow-hidden shadow-xl border border-gray-100 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group ${isCommander ? "max-w-md mx-auto" : ""
+        className={`relative bg-white rounded-2xl overflow-hidden shadow-xl border border-gray-100 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 group ${isCommander ? "max-w-md mx-auto" : "max-w-sm mx-auto"
             }`}
     >
         {/* Decorative Tricolor Line */}
@@ -84,6 +84,7 @@ const OfficerCard = ({
 export default function LeadershipSection() {
     return (
         <section id="leadership" className="py-12 md:py-24 bg-ncc-light relative">
+            <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-ncc-red via-ncc-navy to-ncc-blue z-20" />
             {/* Texture Overlay */}
             <div className="absolute inset-0 opacity-[0.05] pointer-events-none"
                 style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, black 1px, transparent 0)', backgroundSize: '32px 32px' }}

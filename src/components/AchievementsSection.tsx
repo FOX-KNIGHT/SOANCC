@@ -56,6 +56,7 @@ export default function AchievementsSection() {
 
     return (
         <section id="achievements" className="py-12 md:py-20 bg-ncc-navy text-white relative overflow-hidden">
+            <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-ncc-red via-ncc-navy to-ncc-blue z-20" />
             <div className="absolute inset-0 bg-black/40 z-0"></div>
 
             <div className="max-w-7xl mx-auto px-6 relative z-10">

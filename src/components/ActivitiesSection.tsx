@@ -51,7 +51,8 @@ const activities = [
 
 export default function ActivitiesSection() {
     return (
-        <section id="activities" className="py-12 md:py-20 bg-white">
+        <section id="activities" className="py-12 md:py-20 bg-white relative">
+            <div className="absolute top-0 left-0 right-0 h-1.5 bg-gradient-to-r from-ncc-red via-ncc-navy to-ncc-blue z-20" />
             <div className="max-w-7xl mx-auto px-6">
                 <div className="text-center mb-16">
                     <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-ncc-light border border-ncc-navy/10 shadow-sm text-ncc-navy font-medium mb-6">
